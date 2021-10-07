@@ -3,11 +3,14 @@
 
 A Aframe é uma ferramenta criada para desenvolver softwares com experiências em 3D. Desde seu surgimento, ela vem surpreendendo bastante! Eu já havia brincado algumas vezes com ela de maneira mais bruta (inserindo seu script externo em um documento HTML), com Aframe é possível criar vários cenários legais em 3D.
 
-## Passo inicial da aplicação
+### Criando a aplicação com React JavaScript
 
-### Criando a aplicação com React
+- Crie um projeto em React usando o seguinte comando: npx create-react-app my-app;
+-Abra a pasta do projeto e instale o pacote da biblioteca: npm i aframe-react;
 
-- Crie um projeto em React, no meu caso estou usando um template em TypeScript, mas você pode usar o padrão em JavaScript. Para criar um projeto com TypeScript basta executar o seguinte comando: npx create-react-app my-app --template typescript;
+### Criando a aplicação com React TypeScript
+
+- Crie um projeto em React usando o seguinte comando: npx create-react-app my-app --template typescript;
 - Abra a pasta de seu projeto no terminal e execute o comando npm start ou yarn start. Após executado o comando e seu projeto está rodando 100% na web com Hello World do React, isso significa que poderemos ir para os próximos passos de adicionar 2 pacotes que usaremos. 
     #### Configurações extras (Configurando TypeScript e Testes)
     1) Incrementaremos o ESLint como dependência de desenvolvimento, para isso adicionamos o seguinte comando no terminal: "yarn add eslint -D" ;
